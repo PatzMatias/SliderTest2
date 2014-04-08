@@ -1,0 +1,148 @@
+body{
+	background-color: #000;
+	background: url('resources/bg-body.jpg') repeat top left;
+	display: block;
+	padding: 0;
+}
+
+h1{
+	margin: 15px;
+	padding: 0;
+	font-family: 'Lobster', sans-serif;
+	color: #ffffff;
+	font-size: 44px;
+	text-shadow: 1px 1px 1px #000;
+	text-align: center;
+	font-weight: normal;
+	-webkit-margin-before: 0.50em;
+	-webkit-margin-after: 0.50em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	display: block;
+}
+
+h1 span{
+	text-align: center;
+	font-family: 'Terminal Dosis','Georgia', 'Times New Roman', sans-serif;
+	font-size: 13px;
+	color: #b0ccc6;
+	display: block;
+}
+
+#slideWrap{
+	width: 990px;
+	height: 450px;
+	padding: 5px;
+	margin: 25px auto 20px auto;
+	background-color: #eee;
+	overflow: hidden;
+	box-shadow: 0 0 5px 2px #000;
+
+}
+
+#slideNav{
+	width: 990px;
+}
+
+.slides{
+	width: 200%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.itemBox{
+	width: 330px;
+	height: 440px;
+	background: #191919;
+	float: left;
+	overflow: hidden;
+	margin-top: 5px;
+}
+
+#slideItem-1{
+	background: url('resources/item1.jpg') no-repeat center center;
+}
+
+#slideItem-2{
+	background: url('resources/item2.jpg') no-repeat center center;
+}
+
+#slideItem-3{
+	background: url('resources/item3.jpg') no-repeat center center;
+}
+
+#slideItem-4{
+	background: url('resources/item4.jpg') no-repeat center center;
+}
+
+
+#slideItem-5{
+	background: url('resources/item5.jpg') no-repeat center center;
+}
+
+.contentWrap{
+	width: 320px;
+	height: 160px;
+	background-color: #000000;
+	margin-top: 280px;
+	float: left;
+	position: relative;
+	display: block;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+}
+
+.contentWrap h3{
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 30px;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	text-align: center;
+	text-shadow: 0px 1px 1px #333;
+}
+
+.contentWrap h4{
+	font-family:  'Georgia','Times New Roman', sans-serif;
+	color: #ccc;
+	border-left: 10px solid #b0ccc6;
+	font-size: 13px;
+	display: block;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 10px;
+	margin: 10px;
+	line-height: 24px;
+}
+
+.more{
+	position: absolute;
+	bottom: 12px;
+	right: 0px;
+	padding: 4px 15px;
+	background-color: #b0ccc6;
+	text-align: center;
+	color: #000;
+	font-size: 14px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	cursor: pointer;
+}
+
+.itemContent{
+	width: 0px;
+	height: 440px;
+	position: absolute;
+	left: 325px;
+	display: block;
+	background-color: #b0ccc6;
+	float: left;
+
+}
+
+a, a:visited{
+	text-decoration: none;
+}
