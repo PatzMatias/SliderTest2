@@ -42,10 +42,34 @@ h1 span{
 
 #slideNav{
 	width: 990px;
+	height: 440px;
+	z-index: 100;
 }
 
+.sNavButton{
+	width: 33px;
+	height: 60px;
+	margin-top: 200px;
+	position: absolute;
+	z-index: 100;
+
+}
+
+#prev{
+	background: url('resources/arrows.png') 66px 0px;
+	float: left;
+	margin-left: -38px;
+}
+
+#next{
+	background: url('resources/arrows.png') 33px 0px;
+	float: right;
+	margin-left: 995px;
+}
+
+
 .slides{
-	width: 200%;
+	width: 100%;
 	height: 100%;
 	overflow: hidden;
 	position: relative;
@@ -85,6 +109,7 @@ h1 span{
 	width: 320px;
 	height: 160px;
 	background-color: #000000;
+	background: url('resources/tile.png') repeat;
 	margin-top: 280px;
 	float: left;
 	position: relative;
@@ -96,7 +121,7 @@ h1 span{
 }
 
 .contentWrap h3{
-	font-family: sans-serif;
+	font-family: 'Terminal Dosis', sans-serif;
 	color: #ffffff;
 	font-size: 30px;
 	display: block;
@@ -107,7 +132,7 @@ h1 span{
 }
 
 .contentWrap h4{
-	font-family:  'Georgia','Times New Roman', sans-serif;
+	font-family:  'Terminal Dosis','Georgia','Times New Roman', sans-serif;
 	color: #ccc;
 	border-left: 10px solid #b0ccc6;
 	font-size: 13px;
