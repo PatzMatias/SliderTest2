@@ -95,9 +95,32 @@ $('#slideItem-5').hover(
 );
 //hover end
 
+$('.cont1').click(function(){
+	var index=1;
+	dispShow(index);
+});
 
-$('.contentWrap').click(expand);
-$('.close').click(contract);
+$('.cont2').click(function(){
+	var index=2;
+	dispShow(index);
+});
+
+$('.cont3').click(function(){
+	var index=3;
+	dispShow(index);
+});
+
+$('.cont4').click(function(){
+	var index=4;
+	dispShow(index);
+});
+
+$('.cont5').click(function(){
+	var index=5;
+	dispShow(index);
+});
+
+$('.close').click(dispHide);
 
 //expands container and shows contents
 function expand(){
@@ -119,10 +142,31 @@ function contract(){
 	$('.close').css({"display":"none"});
 }
 
-//start open
+
 function dispShow($idx){
+	var openedId=$idx;
+
+	var loop=1;
+			expand();
+		while(loop<=5){
+			if(loop!==openedId){
+				$('#slideItem-'+loop).css({"display":"none"});
+			}
+			else{
+				$('#slideItem-'+loop).css({"display":"block"});
+			}
+			loop++;
+		}
 
 }
 
-//end open
+function dispHide(){
+	var loop=1;
+		contract();
+		while(loop<=5){
+			$('#slideItem-'+loop).css({"display":"block"});
+		loop++;
+		}
+
+	}
 });
