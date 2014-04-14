@@ -119,6 +119,7 @@ h1 span{
 	margin-left: 0px;
 	margin-bottom: 0px;
 	margin-right: 0px;
+	cursor: pointer;
 }
 
 .contentWrap h3{
@@ -145,6 +146,16 @@ h1 span{
 	line-height: 24px;
 }
 
+.itemContent{
+	width: 0px;
+	height: 440px;
+	position: absolute;
+	margin-left: 320px;
+	display: block;
+	background-color: #b0ccc6;
+	float: left;
+}
+
 .more{
 	position: absolute;
 	bottom: 12px;
@@ -156,16 +167,6 @@ h1 span{
 	font-size: 14px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	cursor: pointer;
-}
-
-.itemContent{
-	width: 0px;
-	height: 440px;
-	position: absolute;
-	margin-left: 320px;
-	display: block;
-	background-color: #b0ccc6;
-	float: left;
 }
 
 .close{
@@ -182,7 +183,11 @@ h1 span{
 	margin-top: 10px;
 	margin-right: 10px;
 	display: none;
+	cursor: pointer;
 }
+
+
+
 
 a, a:visited{
 	text-decoration: none;
