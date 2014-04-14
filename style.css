@@ -69,40 +69,42 @@ h1 span{
 
 
 .slides{
-	width: 100%;
+	width: 200%;
 	height: 100%;
 	overflow: hidden;
 	position: relative;
 }
 
 .itemBox{
-	width: 330px;
+	width: 320px;
 	height: 440px;
 	background: #191919;
 	float: left;
 	overflow: hidden;
 	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 #slideItem-1{
-	background: url('resources/item1.jpg') no-repeat center center;
+	background: url('resources/item1.jpg') no-repeat;
 }
 
 #slideItem-2{
-	background: url('resources/item2.jpg') no-repeat center center;
+	background: url('resources/item2.jpg') no-repeat;
 }
 
 #slideItem-3{
-	background: url('resources/item3.jpg') no-repeat center center;
+	background: url('resources/item3.jpg') no-repeat;
 }
 
 #slideItem-4{
-	background: url('resources/item4.jpg') no-repeat center center;
+	background: url('resources/item4.jpg') no-repeat;
 }
 
 
 #slideItem-5{
-	background: url('resources/item5.jpg') no-repeat center center;
+	background: url('resources/item5.jpg') no-repeat;
 }
 
 .contentWrap{
@@ -114,10 +116,9 @@ h1 span{
 	float: left;
 	position: relative;
 	display: block;
-	top: 5px;
-	left: 5px;
-	right: 5px;
-	bottom: 5px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
 }
 
 .contentWrap h3{
@@ -161,11 +162,26 @@ h1 span{
 	width: 0px;
 	height: 440px;
 	position: absolute;
-	left: 325px;
+	margin-left: 320px;
 	display: block;
 	background-color: #b0ccc6;
 	float: left;
+}
 
+.close{
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #efefef;
+	font-family: 'Terminal Dosis', sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: none;
 }
 
 a, a:visited{
